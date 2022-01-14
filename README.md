@@ -3,4 +3,4 @@ Clonagem da tela de login do Instagram, exercício criado para realização do b
 
 Foi utilizado apenas HTML e CSS puro para realização do exercício.
 
-Acesse ele <a href="https://gitjoaopaulo.github.io/Tela_de_Login_Instagram/projeto/index.html">aqui</a>
+Acesse ele <a href="https://gitjoaopaulo.github.io/Tela_de_Login_Instagram/projeto/index.html" target= "_blank" >aqui</a>
