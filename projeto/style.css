@@ -1,0 +1,165 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(243, 243, 243);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.instagram{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 60%;
+    height: 100vh;
+}
+
+.telefone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.telefone img{
+    height: 50rem;
+}
+
+.login-instagram{
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+    flex-direction: column;
+    width: 50%;
+    min-height: 34rem;
+}
+
+.group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 1.3rem 0;
+    border: 1px solid lightgray;
+}
+
+.login{
+    background-color: rgba(192, 192, 192, 0.481);
+    color: black;
+    width: 250px;
+    padding: 10px;
+    margin-top: 20px;
+    border: rgb(150, 150, 150);
+}
+
+#botão{
+    background-color: #B2DFFC;
+    color: white;
+    width: 250px;
+    padding: 5px;
+    margin: 20px;
+    border: none;
+}
+
+.ou{
+    color: rgb(128, 126, 126);
+    margin-bottom: 10px;
+}
+
+span{
+    color: #479EF6;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    font-size: 14px;
+}
+
+.face{
+    display: flex;
+    align-items: center;
+    color: #385185;
+}
+
+.facebook-icon{
+    width: 30px;
+}
+
+.esqueceu-senha{
+    padding-top: 10px;
+    font-size: 14px;
+    color: #375078;
+}
+
+.baixar-app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1.3rem 0;
+}
+
+.download {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+}
+
+.app-download1 {
+    height: 3rem;
+    width: 10rem;
+    background-size: cover;
+    background-image: url('img/apple-button.png');
+}
+
+.app-download2 {
+    height: 3rem;
+    width: 10rem;
+    background-size: cover;
+    background-image: url('img/googleplay-button.png');
+}
+
+@media (max-width: 1024px) {
+    .instagram{
+        width: 90%;
+    }
+}
+
+
+@media (max-width: 650px) {
+    body {
+        background-color: #ffffff;
+    }
+
+    .instagram{
+        width: 90%;
+    }
+
+    .telefone{
+        display: none;
+    }
+
+    .login-instagram {
+        width: 100%;
+    }
+    
+    .group {
+        border: 1px solid transparent;
+    }
+}
